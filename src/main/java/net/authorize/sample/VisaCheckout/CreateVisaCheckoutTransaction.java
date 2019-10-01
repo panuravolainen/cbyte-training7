@@ -28,7 +28,7 @@ public class CreateVisaCheckoutTransaction {
         
 
     //Common code to set for all requests
- 		ApiOperationBase.setEnvironment(Environment.SANDBOX);
+ 		ApiOperationBase.setEnvironment(Environment.TEST);
 
  		MerchantAuthenticationType merchantAuthenticationType  = new MerchantAuthenticationType() ;
 		merchantAuthenticationType.setName(apiLoginId);
